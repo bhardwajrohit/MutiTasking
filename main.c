@@ -26,8 +26,6 @@ int main(int argc, char **argv)
   HAL_Init();
 
   /* Start the Watchdog */
-
-
   TerminalInit();  /* Initialize UART and USB */
   /* Configure the LEDs... */
   for(i=0; i<numLEDs; i++) {
