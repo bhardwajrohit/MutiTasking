@@ -14,9 +14,6 @@ SRCS += mycode.s mytest.c
 # lAB 1 FILES
 SRCS += simple_task.c
 
-# lab2
-SRCS += task_executive1.c task_test1.c
-
 # Simple Monitor sources
 SRCS += monitor.c parser.c dump.c syscall.c terminal.c \
 	decoder/decoder.c decoder/STM32F30x_decoder.c
